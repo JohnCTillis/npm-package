@@ -3,11 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/JohnCTillis/npm-package/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnCTillis/npm-package/.git"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "npm",
+    "package",
+    "sort",
+    "stars"
+  ],
+  "author": "John C. Tilis",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"

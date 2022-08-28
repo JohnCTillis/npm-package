@@ -1,9 +1,9 @@
 const axios = require('axios');
 
 const getRepos = async ({
-    username = 'JohnCTilis',
+    username = 'gaearon',
     page = 1,
-    per_page = 30
+    per_page = 50
 } = {}) => {
     try {
         const repos = await axios.get(
@@ -23,4 +23,6 @@ const getRepos = async ({
         return [];
     }
 };
-getRepos().then((repositories) => console.log(repositories));
+// getRepos().then((repositories) => console.log(repositories));
+
+module.exports = { getRepos };
